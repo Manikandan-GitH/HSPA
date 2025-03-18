@@ -10,8 +10,20 @@
         </div> -->
 
 
-        <div class="card" style="width: 12rem; height: 22rem;">
-            <img class = "propImg" src="/images/House1.png" class="card-img-top" alt="...">
+        <div class="card">
+            
+            <div class="card-img-wrapper">
+            <!-- <img class = "propImg" src="/images/House1.png" class="card-img-top" alt="..."> -->
+            <img class = "card-img-top" src="/images/House1.png">
+            <ul class="list-inline text-center member-icon animate">
+                <li class="list-inline-item" >
+                    <button class="btn btn-primary"> <i class="fa-regular fa-pen-to-square"></i> </button>
+                </li>
+                <li class="list-inline-item">
+                    <button class="btn btn-primary"> <i class="fa-solid fa-address-card"></i> </button>
+                </li>
+            </ul>
+            </div>
             <div class="card-body p-2 text-center ">
                 <h5 class="card-title">{{property.propertyname}}</h5>
                 <p class="card-text">Size: {{property.propertysize}} Price: {{property.propertyprice}}</p>
