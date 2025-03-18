@@ -6,7 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent,PropertyListComponent,PropertyCardComponent],
+  imports: [NavbarComponent,PropertyListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
